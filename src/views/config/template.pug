@@ -1,0 +1,62 @@
+block config
+ include variables
+//- include ../modules/metatags_webapp.pug
+
+
+
+doctype html
+html(lang="es")
+ head
+  //- title= `${pageTitle} - ${siteName}`
+  //- meta(name="description", content=pageDescription)
+  //- meta(name="application-name", content=pageTitle)
+  //- meta(charset="utf-8")
+  //- meta(name="viewport" content="initial-scale=1.0, width=device-width")
+  //- meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+  //- meta(name="author" content="The Norman James")
+  //- 
+  //- 
+  //- 
+  //- 
+  //- 
+  //- 
+  //- 
+
+
+   meta(charset="UTF-8")
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='style.css')
+  meta(name='description' content='For health‑care students and professionals who need fast, reliable, up‑to‑date medical information in one place.')
+  script(src='index.js' type='module' defer='')
+  title PharMed - All of Medicine at Your Fingertips
+  meta(name='keywords' content='digital vademecum, medical tools for students, app for doctors, medical AI in Spanish, online clinical calculators, quick drug lookup LATAM')
+  meta(property='og:title' content='PharMed - All of Medicine at Your Fingertips')
+  meta(property='og:description' content='For health‑care students and professionals who need fast, reliable, up‑to‑date medical information in one place.')
+  meta(property='og:url' content='https://pharmed.com')
+  meta(property='og:site_name' content='PharMed')
+  meta(property='og:locale' content='en_US')
+  meta(property='og:type' content='website')
+  meta(name='twitter:card' content='summary')
+  meta(name='twitter:title' content='PharMed - All of Medicine at Your Fingertips')
+  meta(name='twitter:description' content='For health‑care students and professionals who need fast, reliable, up‑to‑date medical information in one place.')
+  //- Mixin traido de metatags_webapp.pug para añadir las 'funciones' PWA
+  //- +metatagsWebApp()
+  //- Bloque para añadir meta datos especificos de cada página en particular
+  block metatags
+  //- Favicon
+  link(rel="icon" type="image/ico" href="./favicon.ico")
+
+ body(class=prefijo)
+  //- .main-menu-toggle#main-menu-toggle
+  //-   .toggle-icons
+  //- block main-menu
+  //-   include ../modules/main-menu
+  //- if topbar
+  //-   include /includes/topbar
+  header.header
+   block header
+
+  main.main
+   block main
+  //- include /includes/footer

@@ -1,0 +1,17 @@
+html
+ head
+  //- link(rel="stylesheet" href="/src/style.css")
+  block config
+  block metatags 
+   include ../config/metatags.pug
+
+  //- block scripts
+  //-  script(src='/jquery.js')
+ body
+  div(class="flex min-h-screen flex-col")
+   block mainNav
+    include ../components/mainNav.pug
+    //- include ./footer.pug
+   block content
+   block footer
+    include ./footer.pug
