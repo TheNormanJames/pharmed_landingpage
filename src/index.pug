@@ -5,8 +5,8 @@ block config
 
 include ./views/components/card.pug
 //- block scripts
-//-  script(src='/jquery.js')
-//-  script(src='/pets.js')
+//-  script(src='./jquery.js')
+//-  script(src='./pets.js')
 
 //-  //- block main
 block content
@@ -21,15 +21,15 @@ block content
         h1.text-3xl.font-bold.tracking-tighter(class='sm:text-4xl md:text-5xl lg:text-6xl text-[#5586DF]') PharMed: All of Medicine at Your Fingertips
         p.text-gray-500(class='max-w-[600px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed')
          | For health&#x2011;care students and professionals who need fast, reliable, up&#x2011;to&#x2011;date medical information in one place.
-        p.font-semibold.text-lg.mt-2(class='text-[#F1716F] md:text-xl') Don&apos;t wait any longer to have all of medicine at your fingertips!
+        p.font-semibold.text-lg.mt-2(class='text-[#F1716F] md:text-xl') Don't wait any longer to have all of medicine at your fingertips!
        .flex.flex-col.gap-4.items-center(class='min-[400px]:flex-row')
         a.overflow-hidden.transition-transform(class='rounded-[15px] hover:scale-105' target='_blank' rel='noopener noreferrer' href='#')
-         img.h-auto(alt='Download on the App Store' loading='lazy' width='160' height='53' decoding='async' data-nimg='1' style='color:transparent' src='/images/app-store-badge.png')
+         img.h-auto(alt='Download on the App Store' loading='lazy' width='160' height='53' decoding='async' data-nimg='1' style='color:transparent' src='./images/app-store-badge.png')
         a.overflow-hidden.transition-transform(class='rounded-[15px] hover:scale-105' target='_blank' rel='noopener noreferrer' href='https://play.google.com/store/apps/details?id=com.pharmed.ia&pcampaignid=web_share')
-         img.h-auto(alt='Get it on Google Play' loading='lazy' width='180' height='53' decoding='async' data-nimg='1' style='color:transparent' src='/images/google-play-badge.png')
+         img.h-auto(alt='Get it on Google Play' loading='lazy' width='180' height='53' decoding='async' data-nimg='1' style='color:transparent' src='./images/google-play-badge.png')
       .fadeLeft.opacity-0.flex.justify-center(class='lg:justify-end')
        .relative.w-full(class='max-w-[500px]')
-        img.mx-auto.rounded-lg.shadow-xl(src='/placeholder.svg?height=600&width=500' alt='PharMed App Mockup' width='500' height='600')
+        img.mx-auto.rounded-lg.shadow-xl(src='./placeholder.svg?height=600&width=500' alt='PharMed App Mockup' width='500' height='600')
         .inline-flex.items-center.rounded-full.border.text-xs.font-semibold.transition-colors.border-transparent.text-primary-foreground.absolute.top-4.right-4(class='px-2.5 py-0.5 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-[#F1716F] hover:bg-[#F1716F]') New AI Features
    section#why.py-16.bg-gray-50
     .container.mx-auto.px-4(class='md:px-6')
@@ -58,8 +58,8 @@ block content
         svg.lucide.lucide-search.h-6.w-6(class='text-[#5586DF]' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewbox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
          circle(cx='11' cy='11' r='8')
          path(d='m21 21-4.3-4.3')
-       h3.text-xl.font-bold Current &amp; Concise
-       p.text-sm.text-gray-500 Content that&apos;s current, concise, and easy to understand
+       h3.text-xl.font-bold Current & Concise
+       p.text-sm.text-gray-500 Content that's current, concise, and easy to understand
       .showScroll.flex.flex-col.items-center.space-y-2.rounded-lg.p-4.text-center
        .rounded-full.p-4(class='bg-[#F1716F]/10')
         svg.lucide.lucide-shield.h-6.w-6(class='text-[#F1716F]' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewbox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
@@ -81,7 +81,7 @@ block content
          icon: 'lucide-book-open'
         },
         {
-         title: 'Disease &amp; Pathology Search',
+         title: 'Disease & Pathology Search',
          description: 'Find detailed information on diseases, symptoms, and treatments',
          icon: 'lucide-search'
         },
@@ -205,7 +205,7 @@ block content
         .rounded-full.bg-gray-50.w-10.h-10.flex.items-center.justify-center.mb-2
          span.text-2xl.font-serif(class='text-[#5586DF]') &quot;
         p.text-gray-700.leading-relaxed
-         | The AI assistant has saved me countless hours of research. It&apos;s like having a knowledgeable colleague always available.
+         | The AI assistant has saved me countless hours of research. It's like having a knowledgeable colleague always available.
         .pt-4.border-t.border-gray-100
          p.font-bold(class='text-[#5586DF]') Ana Gomez
          p.text-sm.text-gray-500 Physiotherapist, Argentina
@@ -241,9 +241,9 @@ block content
        p(class='max-w-[700px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed') Download the app today and experience the difference
       .flex.flex-col.gap-4.pt-4.items-center(class='min-[400px]:flex-row')
        a.overflow-hidden.transition-transform(class='rounded-[15px] hover:scale-105' target='_blank' rel='noopener noreferrer' href='#')
-        img.h-auto(alt='Download on the App Store' loading='lazy' width='160' height='53' decoding='async' data-nimg='1' style='color:transparent' src='/images/app-store-badge.png')
+        img.h-auto(alt='Download on the App Store' loading='lazy' width='160' height='53' decoding='async' data-nimg='1' style='color:transparent' src='./images/app-store-badge.png')
        a.overflow-hidden.transition-transform(class='rounded-[15px] hover:scale-105' target='_blank' rel='noopener noreferrer' href='https://play.google.com/store/apps/details?id=com.pharmed.ia&pcampaignid=web_share')
-        img.h-auto(alt='Get it on Google Play' loading='lazy' width='180' height='53' decoding='async' data-nimg='1' style='color:transparent' src='/images/google-play-badge.png')
+        img.h-auto(alt='Get it on Google Play' loading='lazy' width='180' height='53' decoding='async' data-nimg='1' style='color:transparent' src='./images/google-play-badge.png')
    section.py-12(class='bg-[#F1716F]/10')
     .container.mx-auto.px-4(class='md:px-6')
      .flex.flex-col.items-center.justify-center.space-y-4.text-center
