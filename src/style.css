@@ -1,6 +1,37 @@
 @import "tailwindcss";
 
+html {
+ scroll-behavior: smooth;
+ scroll-padding-top: 5rem;
+}
+
 body {
  font-family: Inter, Inter Fallback;
  font-style: normal;
+}
+
+
+.showScroll {
+ /* @include mq(pc) { */
+
+ view-timeline-name: --image;
+ view-timeline-axis: block;
+
+ animation-timeline: --image;
+ animation-name: showScroll;
+ animation-range: entry 20% cover 50%;
+ animation-fill-mode: both;
+ /* } */
+}
+
+@keyframes showScroll {
+ from {
+  opacity: 0;
+  scale: 25%;
+ }
+
+ to {
+  opacity: 1;
+  scale: 100%;
+ }
 }
