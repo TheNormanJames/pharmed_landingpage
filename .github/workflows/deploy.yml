@@ -1,14 +1,26 @@
 name: Deploy to GitHub Pages
 on:
   push:
-    branches: [master]
+    branches: [master] # o "main", según tu rama principal
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - run: tsc && vite build # (o el comando que genera tu `dist`)
-      - uses: peaceiris/actions-gh-pages@v3
+      - uses: actions/checkout@v4 # Descarga el código del repo
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # o la versión que uses (18, 16, etc.)
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build # Esto ejecutará "tsc && vite build" (definido en package.json)
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./dist # Asegúrate de que coincide con tu carpeta de salida
