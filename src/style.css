@@ -10,6 +10,10 @@ body {
  font-style: normal;
 }
 
+* {
+ /* border-color: hsl(0 0% 89.8%); */
+}
+
 
 .showScroll {
  /* @include mq(pc) { */

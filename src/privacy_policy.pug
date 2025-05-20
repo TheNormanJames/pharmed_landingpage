@@ -1,0 +1,16 @@
+extends ./views/layout/layout.pug
+
+block config
+ include ./views/config/variables.pug
+
+include ./views/components/card.pug
+//- block scripts
+//-  script(src='./jquery.js')
+//-  script(src='./pets.js')
+
+//-  //- block main
+block content
+ .flex.min-h-screen.flex-col
+
+  main.flex-1
+   h3 Hola

@@ -1,13 +1,14 @@
 block mainNav 
- header.sticky.top-0.z-50.w-full.border-b.bg-white
+ header.sticky.top-0.z-50.w-full.border-b.bg-white.border-gray-100
   .px-6.container.mx-auto.flex.h-16.items-center.justify-between
    .flex.items-center.gap-2
-    img.h-8.w-auto(alt='PharMed Logo' loading='lazy' width='140' height='40' decoding='async' data-nimg='1' style='color:transparent' src='./images/pharmed-logo.png')
+    a.text-sm.font-medium.transition-colors(href='#')
+     img.h-8.w-auto(alt='PharMed Logo' loading='lazy' width='140' height='40' decoding='async' data-nimg='1' style='color:transparent' src='./images/pharmed-logo.png')
    nav.hidden.gap-6(class='md:flex')
+    a.text-sm.font-medium.transition-colors(class='hover:text-[#5586DF]' href='#why') Why PharMed?
     a.text-sm.font-medium.transition-colors(class='hover:text-[#5586DF]' href='#features') Features
     a.text-sm.font-medium.transition-colors(class='hover:text-[#5586DF]' href='#pricing') Pricing
-    a.text-sm.font-medium.transition-colors(class='hover:text-[#5586DF]' href='#why') Why PharMed?
     a.text-sm.font-medium.transition-colors(class='hover:text-[#5586DF]' href='#testimonials') Testimonials
    .flex.items-center.gap-4
-    a.items-center.justify-center.gap-2.whitespace-nowrap.text-sm.font-medium.ring-offset-background.transition-colors.border.border-input.bg-background.h-10.px-4.py-2.hidden(class='focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground md:flex rounded-[15px]' href='https://pharmed.com.co/login' target='_blank') Log in
+    a.items-center.justify-center.gap-2.whitespace-nowrap.text-sm.font-medium.ring-offset-background.transition-colors.border.border-input.bg-background.h-10.px-4.py-2.hidden.border-gray-300(class='focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground md:flex rounded-[15px]' href='https://pharmed.com.co/login' target='_blank') Log in
     a.inline-flex.items-center.justify-center.gap-2.whitespace-nowrap.text-sm.font-medium.ring-offset-background.transition-colors.text-primary-foreground.h-10.px-4.py-2(class='inline-flex items-center justify-center gap-2 whitespace-nowrap text-white text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground h-10 px-4 py-2 bg-[#5586DF] hover:bg-[#4575CE] rounded-[15px]' href='https://pharmed.com.co/usercreate' target='_blank') Sign up
