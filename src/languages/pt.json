@@ -1,4 +1,13 @@
 {
+  "mainnav": {
+    "_comment": "Seção de cabeçalho",
+    "why": "Por que PharMed?",
+    "features": "Funcionalidades",
+    "pricing": "Preços",
+    "testimonials": "Depoimentos",
+    "log_in": "Entrar",
+    "sign_up": "Cadastrar"
+  },
   "header": {
     "_comment": "Header section",
     "navbar": {
