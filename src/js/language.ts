@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const lang = navigator.language || navigator.userLanguage;
+  const lang = navigator.language;
   const langCode = lang.split("-")[0]; // Get the base language code (e.g., "en" from "en-US")
   console.log(langCode);
 
