@@ -19,6 +19,10 @@ export default defineConfig({
   ],
   build: {
     rollupOptions: {
+      input: {
+        main: "./index.html",
+        language: "./src/js/language.ts", // Compilación explícita
+      },
       output: {
         // Configuración para CSS
         assetFileNames: (assetInfo) => {
@@ -28,6 +32,8 @@ export default defineConfig({
           // Otros assets (imágenes, fuentes, etc.)
           return "assets/[name]-[hash][extname]";
         },
+        entryFileNames: `assets/[name].js`, // Nombre consistente para JS
+        chunkFileNames: `assets/[name].js`,
       },
     },
   },
