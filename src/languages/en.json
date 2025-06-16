@@ -132,13 +132,31 @@
       "description": "Average user rating"
     }
   },
-  "footer": {
-    "_comment": "Footer section",
+  "infoSection": {
+    "_comment": "newsletter and download section",
     "join_thousands": "Join thousands of students already trusting PharMed",
     "download_app": "Download the app today and experience the difference",
     "stay_updated": "Stay Updated with PharMed",
     "subscribe_newsletter": "Subscribe to our newsletter for the latest medical resources and app updates",
     "enter_email": "Enter your email",
     "subscribe": "Subscribe"
+  },
+  "footer": {
+    "_comment": "Footer section",
+    "slogan": "All of medicine at your fingertips. For health‑care students and professionals.",
+    "resources": {
+      "title": "Resources",
+      "blog": "Blog",
+      "support": "Support",
+      "faq": "Frequently Asked Questions",
+      "community": "Community"
+    },
+    "legal": {
+      "title": "Resources",
+      "policy": "Blog",
+      "terms": "Support"
+    },
+    "rights": "2025 PharMed. All rights reserved.",
+    "hipaa": "HIPAA Compliant"
   }
 }

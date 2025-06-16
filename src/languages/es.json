@@ -132,7 +132,7 @@
       "description": "Valoración media de los usuarios"
     }
   },
-  "footer": {
+  "infoSection": {
     "_comment": "Footer section",
     "join_thousands": "Únete a miles de estudiantes que ya confían en PharMed",
     "download_app": "Descarga la aplicación hoy y experimenta la diferencia",
@@ -140,5 +140,23 @@
     "subscribe_newsletter": "Suscríbete a nuestro boletín para obtener los últimos recursos médicos y actualizaciones de la aplicación",
     "enter_email": "Introduce tu correo electrónico",
     "subscribe": "Suscríbete"
+  },
+  "footer": {
+    "_comment": "Sección de pie de página",
+    "slogan": "Toda la medicina a tu alcance. Para estudiantes y profesionales de la salud.",
+    "resources": {
+      "title": "Recursos",
+      "blog": "Blog",
+      "support": "Soporte",
+      "faq": "Preguntas Frecuentes",
+      "community": "Comunidad"
+    },
+    "legal": {
+      "title": "Recursos",
+      "policy": "Blog",
+      "terms": "Soporte"
+    },
+    "rights": "2025 PharMed. Todos los derechos reservados.",
+    "hipaa": "Cumple con HIPAA"
   }
 }
