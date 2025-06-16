@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite';
-import pugPlugin from 'vite-plugin-pug';
-import tailwindcss from '@tailwindcss/vite';
+import { defineConfig } from "vite";
+import pugPlugin from "vite-plugin-pug";
+import tailwindcss from "@tailwindcss/vite";
 
 // Variables para Pug (opcionales)
 // const pugLocals = {
@@ -17,4 +17,18 @@ export default defineConfig({
     // Luego procesa Tailwind
     tailwindcss(),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        // Configuración para CSS
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name?.endsWith(".css")) {
+            return "assets/index.css"; // Nombre fijo
+          }
+          // Otros assets (imágenes, fuentes, etc.)
+          return "assets/[name]-[hash][extname]";
+        },
+      },
+    },
+  },
 });
