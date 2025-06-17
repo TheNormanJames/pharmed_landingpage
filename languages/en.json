@@ -1,0 +1,171 @@
+{
+  "mainnav": {
+    "_comment": "Header section",
+    "why": "Why PharMed?",
+    "features": "Features",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "log_in": "Log in",
+    "sign_up": "Sign up"
+  },
+  "header": {
+    "_comment": "Header section",
+    "navbar": {
+      "_comment": "Navigation bar",
+      "home": ""
+    }
+  },
+  "hero": {
+    "_comment": "Hero section",
+    "title": "PharMed: All of Medicine at Your Fingertips",
+    "description": "For health&#x2011;care students and professionals who need fast, reliable, up&#x2011;to&#x2011;date medical information in one place.",
+    "call_to_action": "Don't wait any longer to have all of medicine at your fingertips!"
+  },
+  "why": {
+    "_comment": "Why PharMed section",
+    "title": "Why PharMed?",
+    "description": "Designed specifically for healthcare professionals and students",
+    "centralized_information": {
+      "title": "Centralized Information",
+      "description": "All your medical information in one convenient spot"
+    },
+    "comprehensive_resources": {
+      "title": "Comprehensive Resources",
+      "description": "Digital vademecum, disease guides, AI assistant, lab-test analysis, and more"
+    },
+    "current_concise": {
+      "title": "Current & Concise",
+      "description": "Content that's current, concise, and easy to understand"
+    },
+    "role_specific_design": {
+      "title": "Role-Specific Design",
+      "description": "Designed for every health&#x2011;care role&mdash;from students to specialists"
+    }
+  },
+  "features": {
+    "_comment": "Key Features section",
+    "title": "Key Features",
+    "description": "Everything you need for your medical practice and studies",
+    "interactive_digital_vademecum": {
+      "title": "Interactive Digital Vademecum",
+      "description": "Quick access to comprehensive drug information and dosing guidelines"
+    },
+    "disease_pathology_search": {
+      "title": "Disease & Pathology Search",
+      "description": "Find detailed information on diseases, symptoms, and treatments"
+    },
+    "smart_medical_calculators": {
+      "title": "Smart Medical Calculators",
+      "description": "Quickly perform complex medical calculations with ease"
+    },
+    "condensed_clinical_guides": {
+      "title": "Condensed Clinical Guides",
+      "description": "Access concise, practical clinical guidelines for various conditions"
+    },
+    "specialized_ai_medical_assistant": {
+      "title": "Specialized AI Medical Assistant",
+      "description": "Get instant answers to your medical questions from our AI assistant"
+    },
+    "automated_lab_test_analysis": {
+      "title": "Automated Lab-Test Analysis",
+      "description": "Interpret laboratory results quickly and accurately"
+    }
+  },
+  "pricing": {
+    "_comment": "Pricing section",
+    "title": "Simple, Transparent Pricing",
+    "description": "Choose the plan that works best for you",
+    "monthly": {
+      "title": "Monthly",
+      "price": "$4.99",
+      "per_month": "/month",
+      "full_access": "Full access to all features",
+      "regular_updates": "Regular updates",
+      "cancel_anytime": "Cancel anytime",
+      "get_started": "Get Started"
+    },
+    "annual": {
+      "title": "Annual",
+      "popular": "POPULAR",
+      "price": "$39.99",
+      "per_year": "/year",
+      "save_33": "Save 33%",
+      "full_access": "Full access to all features",
+      "regular_updates": "Regular updates",
+      "premium_support": "Premium support",
+      "exclusive_content": "Exclusive content",
+      "best_value_get_started": "Best Value - Get Started"
+    },
+    "semi_annual": {
+      "title": "Semi-annual",
+      "price": "$24.99",
+      "per_6_months": "/6 months",
+      "save_16": "Save 16%",
+      "full_access": "Full access to all features",
+      "regular_updates": "Regular updates",
+      "priority_support": "Priority support",
+      "get_started": "Get Started"
+    },
+    "all_plans_include": "All plans include a 7-day free trial. No credit card required.",
+    "create_account_first": "Create your account first, then select your subscription plan."
+  },
+  "testimonials": {
+    "_comment": "Testimonials section",
+    "title": "Trusted by Healthcare Professionals",
+    "description": "See what our users are saying about PharMed",
+    "maria_rodriguez": {
+      "quote": "PharMed has completely transformed how I study medicine. Everything I need is in one place!",
+      "name": "Maria Rodriguez",
+      "role": "Medical Student, Colombia"
+    },
+    "carlos_mendez": {
+      "quote": "As a busy nurse, I need quick access to reliable information. PharMed delivers exactly that.",
+      "name": "Carlos Mendez",
+      "role": "Registered Nurse, Mexico"
+    },
+    "ana_gomez": {
+      "quote": "The AI assistant has saved me countless hours of research. It's like having a knowledgeable colleague always available.",
+      "name": "Ana Gomez",
+      "role": "Physiotherapist, Argentina"
+    },
+    "active_users": {
+      "count": "8,000+",
+      "description": "Active users in 76 countries"
+    },
+    "countries_worldwide": {
+      "count": "76",
+      "description": "Countries worldwide"
+    },
+    "average_user_rating": {
+      "rating": "4.8/5",
+      "description": "Average user rating"
+    }
+  },
+  "infoSection": {
+    "_comment": "newsletter and download section",
+    "join_thousands": "Join thousands of students already trusting PharMed",
+    "download_app": "Download the app today and experience the difference",
+    "stay_updated": "Stay Updated with PharMed",
+    "subscribe_newsletter": "Subscribe to our newsletter for the latest medical resources and app updates",
+    "enter_email": "Enter your email",
+    "subscribe": "Subscribe"
+  },
+  "footer": {
+    "_comment": "Footer section",
+    "slogan": "All of medicine at your fingertips. For health‑care students and professionals.",
+    "resources": {
+      "title": "Resources",
+      "blog": "Blog",
+      "support": "Support",
+      "faq": "Frequently Asked Questions",
+      "community": "Community"
+    },
+    "legal": {
+      "title": "Resources",
+      "policy": "Blog",
+      "terms": "Support"
+    },
+    "rights": "2025 PharMed. All rights reserved.",
+    "hipaa": "HIPAA Compliant"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "mainnav": {
+    "_comment": "Seção de cabeçalho",
+    "why": "Por que PharMed?",
+    "features": "Funcionalidades",
+    "pricing": "Preços",
+    "testimonials": "Depoimentos",
+    "log_in": "Entrar",
+    "sign_up": "Cadastrar"
+  },
+  "header": {
+    "_comment": "Header section",
+    "navbar": {
+      "_comment": "Navigation bar",
+      "home": ""
+    }
+  },
+  "hero": {
+    "_comment": "Hero section",
+    "title": "PharMed: Toda a Medicina ao Seu Alcance",
+    "description": "Para estudantes e profissionais de saúde que precisam de informações médicas rápidas, confiáveis e atualizadas em um só lugar.",
+    "call_to_action": "Não espere mais para ter toda a medicina ao seu alcance!"
+  },
+  "why": {
+    "_comment": "Why PharMed section",
+    "title": "Por que PharMed?",
+    "description": "Projetado especificamente para profissionais e estudantes de saúde",
+    "centralized_information": {
+      "title": "Informação Centralizada",
+      "description": "Toda a sua informação médica em um local conveniente"
+    },
+    "comprehensive_resources": {
+      "title": "Recursos Abrangentes",
+      "description": "Vademecum digital, guias de doenças, assistente de IA, análise de testes laboratoriais e muito mais"
+    },
+    "current_concise": {
+      "title": "Atual e Conciso",
+      "description": "Conteúdo atual, conciso e fácil de entender"
+    },
+    "role_specific_design": {
+      "title": "Design Específico para Cada Função",
+      "description": "Projetado para cada função de assistência médica - de estudantes a especialistas"
+    }
+  },
+  "features": {
+    "_comment": "Key Features section",
+    "title": "Principais Características",
+    "description": "Tudo o que você precisa para sua prática médica e estudos",
+    "interactive_digital_vademecum": {
+      "title": "Vademecum Digital Interativo",
+      "description": "Acesso rápido a informações abrangentes sobre medicamentos e diretrizes de dosagem"
+    },
+    "disease_pathology_search": {
+      "title": "Pesquisa de Doenças e Patologias",
+      "description": "Encontre informações detalhadas sobre doenças, sintomas e tratamentos"
+    },
+    "smart_medical_calculators": {
+      "title": "Calculadoras Médicas Inteligentes",
+      "description": "Realize cálculos médicos complexos de forma rápida e fácil"
+    },
+    "condensed_clinical_guides": {
+      "title": "Guias Clínicos Condensados",
+      "description": "Acesse guias clínicos concisos e práticos para várias condições"
+    },
+    "specialized_ai_medical_assistant": {
+      "title": "Assistente Médico Especializado em IA",
+      "description": "Obtenha respostas instantâneas para suas perguntas médicas de nosso assistente de IA"
+    },
+    "automated_lab_test_analysis": {
+      "title": "Análise Automatizada de Testes Laboratoriais",
+      "description": "Interprete os resultados laboratoriais de forma rápida e precisa"
+    }
+  },
+  "pricing": {
+    "_comment": "Pricing section",
+    "title": "Preços Simples e Transparentes",
+    "description": "Escolha o plano que melhor se adapta às suas necessidades",
+    "monthly": {
+      "title": "Mensal",
+      "price": "$4.99",
+      "per_month": "/mês",
+      "full_access": "Acesso total a todos os recursos",
+      "regular_updates": "Atualizações regulares",
+      "cancel_anytime": "Cancele a qualquer momento",
+      "get_started": "Começar"
+    },
+    "annual": {
+      "title": "Anual",
+      "popular": "POPULAR",
+      "price": "$39.99",
+      "per_year": "/ano",
+      "save_33": "Economize 33%",
+      "full_access": "Acesso total a todos os recursos",
+      "regular_updates": "Atualizações regulares",
+      "premium_support": "Suporte premium",
+      "exclusive_content": "Conteúdo exclusivo",
+      "best_value_get_started": "Melhor Valor - Começar"
+    },
+    "semi_annual": {
+      "title": "Semestral",
+      "price": "$24.99",
+      "per_6_months": "/6 meses",
+      "save_16": "Economize 16%",
+      "full_access": "Acesso total a todos os recursos",
+      "regular_updates": "Atualizações regulares",
+      "priority_support": "Suporte prioritário",
+      "get_started": "Começar"
+    },
+    "all_plans_include": "Todos os planos incluem um teste gratuito de 7 dias. Não é necessário cartão de crédito.",
+    "create_account_first": "Crie sua conta primeiro e, em seguida, selecione seu plano de assinatura."
+  },
+  "testimonials": {
+    "_comment": "Testimonials section",
+    "title": "Com a Confiança de Profissionais de Saúde",
+    "description": "Veja o que nossos usuários estão dizendo sobre o PharMed",
+    "maria_rodriguez": {
+      "quote": "O PharMed transformou completamente a forma como estudo medicina. Tudo o que preciso está em um só lugar!",
+      "name": "Maria Rodriguez",
+      "role": "Estudante de Medicina, Colômbia"
+    },
+    "carlos_mendez": {
+      "quote": "Como enfermeiro ocupado, preciso de acesso rápido a informações confiáveis. O PharMed oferece exatamente isso.",
+      "name": "Carlos Mendez",
+      "role": "Enfermeiro Registrado, México"
+    },
+    "ana_gomez": {
+      "quote": "O assistente de IA me economizou incontáveis horas de pesquisa. É como ter um colega experiente sempre disponível.",
+      "name": "Ana Gomez",
+      "role": "Fisioterapeuta, Argentina"
+    },
+    "active_users": {
+      "count": "8.000+",
+      "description": "Usuários ativos em 76 países"
+    },
+    "countries_worldwide": {
+      "count": "76",
+      "description": "Países em todo o mundo"
+    },
+    "average_user_rating": {
+      "rating": "4,8/5",
+      "description": "Classificação média do usuário"
+    }
+  },
+  "infoSection": {
+    "_comment": "Footer section",
+    "join_thousands": "Junte-se a milhares de estudantes que já confiam no PharMed",
+    "download_app": "Baixe o aplicativo hoje e experimente a diferença",
+    "stay_updated": "Mantenha-se atualizado com o PharMed",
+    "subscribe_newsletter": "Assine nossa newsletter para obter os recursos médicos e atualizações de aplicativos mais recentes",
+    "enter_email": "Digite seu e-mail",
+    "subscribe": "Assinar"
+  },
+  "footer": {
+    "_comment": "Seção de rodapé",
+    "slogan": "Toda a medicina na ponta dos seus dedos. Para estudantes e profissionais de saúde.",
+    "resources": {
+      "title": "Recursos",
+      "blog": "Blog",
+      "support": "Suporte",
+      "faq": "Perguntas Frequentes",
+      "community": "Comunidade"
+    },
+    "legal": {
+      "title": "Recursos",
+      "policy": "Blog",
+      "terms": "Suporte"
+    },
+    "rights": "2025 PharMed. Todos os direitos reservados.",
+    "hipaa": "Compatível com HIPAA"
+  }
+}
