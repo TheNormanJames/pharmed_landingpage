@@ -18,7 +18,7 @@
   "hero": {
     "_comment": "Hero section",
     "title": "PharMed: All of Medicine at Your Fingertips",
-    "description": "For health&#x2011;care students and professionals who need fast, reliable, up&#x2011;to&#x2011;date medical information in one place.",
+    "description": "For health-care students and professionals who need fast, reliable, up-to-date medical information in one place.",
     "call_to_action": "Don't wait any longer to have all of medicine at your fingertips!"
   },
   "why": {
@@ -39,7 +39,7 @@
     },
     "role_specific_design": {
       "title": "Role-Specific Design",
-      "description": "Designed for every health&#x2011;care role&mdash;from students to specialists"
+      "description": "Designed for every health-care role&mdash;from students to specialists"
     }
   },
   "features": {
